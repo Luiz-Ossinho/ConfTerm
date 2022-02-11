@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="UseCases\Measurements\CreateMeasurement\" />
+    <Folder Include="UseCases\Conforts\" />
+    <Folder Include="UseCases\AnimalProductions\" />
+    <Folder Include="UseCases\Housings\" />
+    <Folder Include="UseCases\Species\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.3.6" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.3.6" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConfTerm.Domain\ConfTerm.Domain.csproj" />
+    <ProjectReference Include="..\ConfTerm.Infrastructure.Database.Abstractions\ConfTerm.Infrastructure.Database.Abstractions.csproj" />
+    <ProjectReference Include="..\ConfTerm.Services.Abstractions\ConfTerm.Services.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
