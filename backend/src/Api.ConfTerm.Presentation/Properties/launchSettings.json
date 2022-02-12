@@ -1,0 +1,43 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:50247/",
+      "sslPort": 44378
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Api.ConfTerm.Presentation": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "DATABASE_URL": "DATABASER_URL",
+        "JWT_SECRET": "theonlyleftisthepilot",
+        "AllowedOrigins": "[\"http://localhost:3000\"]",
+        "Superuser": "{\"Username\":\"Superuser\",\"Password\":\"5up3Rus3rP@s5w0rd\", \"Email\":\"superUserEmail@email.domain\",\"HousingIndentification\":\"Development Housing\", \"AnimalProductionEquipament\":\"Development Equipament\"}",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": "true",
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    },
+    "Heroku": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\ejesus\\source\\repos\\ConfTerm\\Api.ConfTerm\\scripts\\publishRelease.bat"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "publishAllPorts": true,
+      "useSSL": true
+    }
+  }
+}
