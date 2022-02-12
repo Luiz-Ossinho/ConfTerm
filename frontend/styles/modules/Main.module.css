@@ -1,0 +1,10 @@
+.content {
+    width : 50%;
+    height: 100%;
+    overflow: auto;
+    display       : flex;
+    flex-direction: column;
+    border-left: 2px solid #ebebeb;
+    gap           : 20px;
+    padding: 30px 40px;
+}

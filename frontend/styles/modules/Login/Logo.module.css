@@ -1,0 +1,16 @@
+.centered {
+    flex-grow : 1;
+    align-self: stretch;
+
+    display        : flex;
+    flex-wrap      : nowrap;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+}
+
+.logoSubText {
+    font-family: "Roboto", sans-serif;
+    font-style : italic;
+    text-align : center;
+}

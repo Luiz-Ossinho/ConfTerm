@@ -1,0 +1,76 @@
+.left {
+    width       : 25%;
+    height      : 100%;
+    border-right: 2px solid #ebebeb;
+    background  : rgb(255, 255, 255);
+
+    padding       : 30px;
+    gap           : 40px;
+    display       : flex;
+    flex-wrap     : nowrap;
+    flex-direction: column;
+    align-items   : center;
+}
+
+.centered {
+    flex-grow : 1;
+    align-self: stretch;
+
+    display        : flex;
+    flex-wrap      : nowrap;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+}
+
+.navigationContainer {
+    flex-grow : 1;
+    align-self: stretch;
+
+    display        : flex;
+    flex-wrap      : nowrap;
+    flex-direction : column;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.navigation {
+    flex-grow : 1;
+    align-self: stretch;
+
+    gap           : 40px;
+    display       : flex;
+    flex-wrap     : nowrap;
+    flex-direction: column;
+    align-items   : center;
+}
+
+.usernameCard {
+    align-self   : stretch;
+    padding-top  : 60px;
+    padding-right: 160px;
+}
+
+.usernamePositioning {
+    position: relative;
+    left    : 10px;
+    bottom  : 10px;
+}
+
+.usernameWelcomeText {
+    margin: 0;
+}
+
+.usernameWelcome {
+    margin: 0;
+    font-weight: bold
+}
+
+.navigationCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    padding: 15px
+}

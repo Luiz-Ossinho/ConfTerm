@@ -1,0 +1,8 @@
+.right {
+    overflow    : auto;
+    width       : 25%;
+    height      : 100%;
+    border-left: 2px solid #ebebeb;
+    background  : rgb(255, 255, 255);
+    padding     : 30px;
+}
